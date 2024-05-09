@@ -3,40 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro de Eventos</title>
+    <title>Benedetti, Centro de Eventos</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Centro de Eventos Benedetti</h1>
+        <section>
+            <img src="/images/logo_blanco2.png" alt="logo" height="200px">
         <nav>
             <ul>
-                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#us">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#secondgallery">Galería</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
+        </section>
     </header>
 
     <main>
-        <br>
-        <section class="intro">
-            <p>Descubre el lugar perfecto para tus celebraciones y eventos especiales, donde cada detalle está pensado para crear momentos inolvidables.</p>
+        <section id="us" class="intro">
+            <h2>Descubre el lugar perfecto para tus celebraciones y eventos especiales, <br>donde cada detalle está pensado para crear momentos inolvidables.</h2>
         </section>
-        <br>
+        
 
-        <div class="gallery-container">
-            <div class="photo-grid">
+        <div id="gallery" class="photo-gallery">
+            <div>
                 <img src="/images/001.jpg" alt="Evento 1" class="fade-in-out">
                 <img src="/images/002.jpg" alt="Evento 2" class="fade-in-out">
                 <img src="/images/003.jpg" alt="Evento 3" class="fade-in-out">
+                <img src="/images/004.jpg" alt="Evento 4" class="fade-in-out">
+                <img src="/images/005.jpg" alt="Evento 5" class="fade-in-out">
+                <img src="/images/006.jpg" alt="Evento 6" class="fade-in-out">
+                <img src="/images/007.jpg" alt="Evento 7" class="fade-in-out">
+                <img src="/images/008.jpg" alt="Evento 8" class="fade-in-out">
+                <img src="/images/009.jpg" alt="Evento 9" class="fade-in-out">
             </div>
         </div>
         <br>
-        <section class="intro">
-            <p class="inspiring-text">"Cada evento es una oportunidad para crear recuerdos que durarán toda la vida."</p>
+        <section class="inspiring">
+            <h2>"Cada evento es una oportunidad para crear recuerdos que durarán toda la vida."</h2>
         </section>
-        <br>
-        <section id="contact">
+        <section id="secondgallery" class="second-gallery">
+            <div class="image-container">
+                <img src="/images/010.jpg" alt="Imagen 1" class="circle">
+                <img src="/images/011.jpg" alt="Imagen 2" class="square">
+                <img src="/images/012.jpg" alt="Imagen 3" class="rounded">
+                <img src="/images/013.jpg" alt="Imagen 4" class="oval">
+            </div>
+        </section>
+        <section class="advertising-text">
+            <p>En nuestro centro de eventos creemos que cada celebración debe ser única y memorable. <br> Desde elegantes banquetes hasta vibrantes fiestas y reuniones corporativas, nuestro equipo dedicado está 
+                <br>aquí para asegurar que cada detalle sea perfecto.</p>
+            <br>
+            <p class="advertising-subtitle">¿Buscas el lugar ideal para tu boda, fiesta de cumpleaños, o evento corporativo?</p>
+            <p>Descubre nuestros versátiles espacios, cada uno diseñado con el encanto y la elegancia que tu evento merece. 
+                <br>Con instalaciones de última generación y un equipo experto en hospitalidad, garantizamos una experiencia que superará tus expectativas.</p>
+        </section>
+    
+     <section class="content-section">
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5vAgZ-OuuPs?si=FrNqtQuNzBZewfxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="services-wrapper">
+            <h1 id="services" class="services-list">Nuestros Servicios</h1>
+            <ul class="ul-services">
+                <li class="li-services">Banquetería – Decoración</li>
+                <li class="li-services">Amplificación, Proyección, Iluminación, DJ</li>
+                <li class="li-services">Show, animación, anfitrionas, carnavales, músicos, magos, mimos, etc.</li>
+                <li class="li-services">Escenario, Tarimas</li>
+                <li class="li-services">Cabinas de fotos, fotografía y video</li>
+                <li class="li-services">Traducción simultánea</li>
+                <li class="li-services">Arriendo de salones con cocina equipada y con cámara de frío</li>
+                <li class="li-services">Vestidores y camarines personal</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="ending">
+        <div class="box">
+            <img src="/images/logo_blanco2.png" alt="logo" height="170px">
+            <p>Centro de eventos con espacios para cualquier tipo de celebraciones al aire libre e interior. Contamos con un equipo que hará tus sueños realidad!<br>
+            <p>Luis Durand 02150, Temuco <br>
+            +56 9 5148 6273<br>
+            contacto@benedettieventos.cl</p>
+        </div>
+        <div class="box" id="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.663131615022!2d-72.63474232325218!3d-38.72554248669775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d46ebbf59075%3A0xe6dabd71abc1b344!2sLuis%20Durand%2002150%2C%20Temuco%2C%20Araucan%C3%ADa!5e0!3m2!1ses-419!2scl!4v1715275662273!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="box" id="contact">
             <h2>Contacto</h2>
             <form action="mailto:itallo.benedetti@gmail.com" method="post" enctype="text/plain">
                 <input type="text" name="name" placeholder="Tu nombre" required>
@@ -44,13 +99,8 @@
                 <textarea name="message" placeholder="Tu mensaje: 'Hola, me gustaría cotizar sus servicios para un evento'"></textarea>
                 <button type="submit">Enviar</button>
             </form>
-        </section>
-        <br>
-        <br>
-        <br>
-        <br>
-    </main>
-
+        </div>
+    </section>    
     <footer>
         <p>© 2024 Centro de Eventos Benedetti. Todos los derechos reservados.</p>
     </footer>
