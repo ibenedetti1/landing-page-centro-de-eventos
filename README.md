@@ -1,2 +1,2 @@
 # landingpage
- Landing page centro de eventos Nexus
+ Landing page centro de eventos Benedetti
